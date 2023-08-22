@@ -1,0 +1,112 @@
+body{
+    background-image:url('https://dailyrunneronline.com/wp-content/uploads/2014/02/o-THEATER-SEATS-facebook.jpg');
+    background-size:100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(243, 234, 234);
+    letter-spacing: 1px;
+}
+h1,h2{
+    font-weight: normal;
+}
+
+#wrapper{
+    background-color: aliceblue;
+    width:90%;
+    max-width: 910px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgb(74, 70, 70);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border:1px solid gray;
+}
+
+#page-banner{
+    background-image: url('http://getwallpapers.com/wallpaper/full/9/b/e/374783.jpg');
+    background-size: 100%;
+    align-items: center;
+    padding:20px 0;
+}
+
+#page-banner h1,
+#page-banner p{
+    width:100%;
+    text-align: center;
+    margin:10px 0;
+}
+
+#movie-list,
+#add-movie{
+    margin:30px;
+    color: black;
+
+}
+
+#movie-list ul{
+    list-style-type: none;
+    padding:0;
+}
+
+#movie-list li{
+    padding:20px;
+    border-left:5px solid rgb(158, 156, 156);
+    margin:20px 10px;
+    border-radius: 2px;
+}
+
+
+#movie-list li:hover{
+    border-color:rgb(110, 50, 167);
+}
+
+.delete{
+    float:right;
+    background: rgb(186, 10, 10);
+    padding:6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.delete:hover{
+    background: maroon;
+}
+
+#add-movie{
+    width:400px;
+    margin: 0 auto;
+}
+
+#add-movie input{
+    display: block;
+    margin:20px 0;
+    padding:10px;
+    border:1px solid gray;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float:left;
+    clear:both
+}
+
+#add-movie button{
+    border:1px solid rgb(24, 97, 24);
+    background: rgb(24, 97, 24);
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    
+    margin: 20px 0;
+    border-left: 0;
+    color: aliceblue;
+}
+
+#add-movie button:hover{
+    background: rgb(8, 66, 8);
+}
